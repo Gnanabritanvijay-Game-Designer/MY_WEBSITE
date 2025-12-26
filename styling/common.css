@@ -194,6 +194,26 @@ canvas{
     margin: 0 5px;
 }
 
+.contact-info {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    color: #fff;
+}
+
+.contact-info a {
+    color: #c660f9;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 1024px) {
     .width-center{
         margin-right: 30px;
