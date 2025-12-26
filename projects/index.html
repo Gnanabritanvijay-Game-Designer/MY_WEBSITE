@@ -92,44 +92,62 @@
         <div class="project-wrapper">
             <h2><b>24FPS – International Animation Film Festival</b></h2>
             <div class="project-container">
-                <div class="project-element"
-                    onclick="openPopup('https://www.youtube.com/embed/dzudwcW1cqE?autoplay=1&loop=1&playlist=dzudwcW1cqE')">
-                    <img src="https://img.youtube.com/vi/dzudwcW1cqE/hqdefault.jpg"
-                        alt="24FPS 2022 | CHOC N CHUCKLE | CHENNAI-ANNA NAGAR">
-                    <div class="item-title">24FPS 2022 | CHOC N CHUCKLE | CHENNAI-ANNA NAGAR</div>
+                <div class="project-element">
+                    <iframe class="video-auto-play"
+                        src="https://www.youtube.com/embed/dzudwcW1cqE?autoplay=1&mute=1&loop=1&playlist=dzudwcW1cqE&controls=0&modestbranding=1&rel=0"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <div class="project-overlay"
+                        onclick="openPopup('https://www.youtube.com/embed/dzudwcW1cqE?autoplay=1&loop=1&playlist=dzudwcW1cqE')">
+                        <div class="item-title">24FPS 2022 | CHOC N CHUCKLE | CHENNAI-ANNA NAGAR</div>
+                    </div>
                 </div>
             </div>
+        </div>
 
-        </div>
-        </div>
         <div class="project-wrapper">
             <h2><b>Environment Design</b></h2>
             <div class="project-container">
-                <div class="project-element"
-                    onclick="openPopup('https://www.youtube.com/embed/lgiQ5Vn8aNg?autoplay=1&loop=1&playlist=lgiQ5Vn8aNg')">
-                    <img src="https://img.youtube.com/vi/lgiQ5Vn8aNg/hqdefault.jpg" alt="Environment Design Content">
-                    <div class="item-title">Environment Design Video</div>
+                <div class="project-element">
+                    <iframe class="video-auto-play"
+                        src="https://www.youtube.com/embed/lgiQ5Vn8aNg?autoplay=1&mute=1&loop=1&playlist=lgiQ5Vn8aNg&controls=0&modestbranding=1&rel=0"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <div class="project-overlay"
+                        onclick="openPopup('https://www.youtube.com/embed/lgiQ5Vn8aNg?autoplay=1&loop=1&playlist=lgiQ5Vn8aNg')">
+                        <div class="item-title">Environment Design Video</div>
+                    </div>
                 </div>
             </div>
         </div>
+
         <div class="project-wrapper">
             <h2><b>VR Works</b></h2>
             <div class="project-container">
-                <div class="project-element"
-                    onclick="openPopup('https://www.youtube.com/embed/i44axKKudxk?autoplay=1&loop=1&playlist=i44axKKudxk')">
-                    <img src="https://img.youtube.com/vi/i44axKKudxk/hqdefault.jpg" alt="VR Interaction">
-                    <div class="item-title">VR Interaction</div>
+                <div class="project-element">
+                    <iframe class="video-auto-play"
+                        src="https://www.youtube.com/embed/i44axKKudxk?autoplay=1&mute=1&loop=1&playlist=i44axKKudxk&controls=0&modestbranding=1&rel=0"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <div class="project-overlay"
+                        onclick="openPopup('https://www.youtube.com/embed/i44axKKudxk?autoplay=1&loop=1&playlist=i44axKKudxk')">
+                        <div class="item-title">VR Interaction</div>
+                    </div>
                 </div>
-                <div class="project-element"
-                    onclick="openPopup('https://www.youtube.com/embed/ylEhVKpaMPY?autoplay=1&loop=1&playlist=ylEhVKpaMPY')">
-                    <img src="https://img.youtube.com/vi/ylEhVKpaMPY/hqdefault.jpg"
-                        alt="VR Balloon Interaction | Unity & C#">
-                    <div class="item-title">VR Balloon Interaction | Unity & C#</div>
+                <div class="project-element">
+                    <iframe class="video-auto-play"
+                        src="https://www.youtube.com/embed/ylEhVKpaMPY?autoplay=1&mute=1&loop=1&playlist=ylEhVKpaMPY&controls=0&modestbranding=1&rel=0"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <div class="project-overlay"
+                        onclick="openPopup('https://www.youtube.com/embed/ylEhVKpaMPY?autoplay=1&loop=1&playlist=ylEhVKpaMPY')">
+                        <div class="item-title">VR Balloon Interaction | Unity & C#</div>
+                    </div>
                 </div>
-                <div class="project-element"
-                    onclick="openPopup('https://www.youtube.com/embed/WgkLJQMgJkk?autoplay=1&loop=1&playlist=WgkLJQMgJkk')">
-                    <img src="https://img.youtube.com/vi/WgkLJQMgJkk/hqdefault.jpg" alt="VR Object Interaction">
-                    <div class="item-title">VR Object Interaction</div>
+                <div class="project-element">
+                    <iframe class="video-auto-play"
+                        src="https://www.youtube.com/embed/WgkLJQMgJkk?autoplay=1&mute=1&loop=1&playlist=WgkLJQMgJkk&controls=0&modestbranding=1&rel=0"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <div class="project-overlay"
+                        onclick="openPopup('https://www.youtube.com/embed/WgkLJQMgJkk?autoplay=1&loop=1&playlist=WgkLJQMgJkk')">
+                        <div class="item-title">VR Object Interaction</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -182,14 +200,24 @@
             border-radius: 24px;
             position: relative;
             overflow: hidden;
+            background-color: #000;
         }
 
-        .project-element img {
+        .video-auto-play {
             width: 100%;
             height: 100%;
-            object-fit: cover;
-            object-position: center;
+            pointer-events: none;
+            /* Prevents interaction with the iframe so the overlay can handle clicks */
+        }
+
+        .project-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
             cursor: pointer;
+            z-index: 2;
         }
 
         .item-title {
@@ -201,6 +229,8 @@
             font-size: 24px;
             line-height: initial;
             padding: 10px 0 15px 0;
+            pointer-events: none;
+            /* Allows clicks to pass through to the overlay */
         }
 
 
